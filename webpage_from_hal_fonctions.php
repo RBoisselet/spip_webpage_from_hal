@@ -6,7 +6,7 @@ function hal_parse($url) {
     $infos = parse_url($url);
     $ip = gethostbyname($infos['host']);
 
-    if ($ip != '193.48.96.10') {
+    if ($ip != '128.93.162.106') {
         spip_log("Url invalid", _LOG_ERREUR);
         
         return;
